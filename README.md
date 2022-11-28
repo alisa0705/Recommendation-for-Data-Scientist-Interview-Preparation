@@ -1,5 +1,6 @@
 # Alisa_Project4
 
+The aim of this project is to create a microservice that returns a JASON payload, and also performs continuous integration(CI) through Github actions as well as deploy change (CD) through Fast API. 
 
  build continuous delivery of FastAPI 
  
