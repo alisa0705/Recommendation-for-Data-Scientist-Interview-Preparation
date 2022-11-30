@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 import uvicorn
-from alisa_library.create import viedo_suggestions
-from alisa_library.create import channels_Search
-from alisa_library.create import playlists_Search
+from alisa_library.create import viedo_suggestions as youtube_suggestions
+from alisa_library.create import channels_Search as youtube_channels_Search
+from alisa_library.create import playlists_Search as youtube_playlists_Search
 
 app = FastAPI()
 
@@ -13,20 +13,20 @@ def root():
 @app.get("/viedo_suggestions/{search}")
 async def viedo_suggestions(search: str):
     '''Get the youtube video suggestion'''
-    output = viedo_suggestions(search)
+    output = youtube_suggestions(search)
     return {"output": output}
 
 
 @app.get("/channels_Search/{search}")
 async def channels_Search(search: str):
     '''Search only channels'''
-    output = channels_Search(search)
+    output = youtube_channels_Search(search)
     return {"output": output}
 
 @app.get("/playlists_Search/{search}")
 async def playlists_Search(search: str):
     '''Search only playlists'''
-    output = playlists_Search(search)
+    output = youtube_playlists_Search(search)
     return {"output": output}
         
 
