@@ -1,4 +1,4 @@
-# Alisa_Project4: Youtube Recommendation for Data Scientist Interview Preparation
+# Alisa_Project4:Youtube Recommendation for Data Scientist Interview Preparation
 
 The aim of this project is to create a microservice that returns a JASON payload, and also performs continuous integration(CI) through Github actions as well as deploy change (CD) through Fast API. 
 
