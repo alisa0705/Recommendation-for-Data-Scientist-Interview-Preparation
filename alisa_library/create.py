@@ -16,3 +16,6 @@ def playlists_Search(search):
     '''Search only playlists'''
     playlists_Search = PlaylistsSearch('search', limit = 2)
     return playlists_Search.result()
+
+
+viedo_suggestions(search)
