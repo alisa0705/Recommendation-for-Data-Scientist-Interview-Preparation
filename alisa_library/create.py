@@ -1,20 +1,18 @@
 from youtubesearchpython import *
 
-Viedo_suggestions = Suggestions(language = 'en', region = 'US')
-
-'''Get the youtube video suggestion for Data Scientist Interview Preparation'''
-print(Viedo_suggestions.get('Data Scientist Interview Preparation', mode = ResultMode.json))
-
-
-'''Search only channels for Data Scientist Interview Preparation'''
-channels_Search = ChannelsSearch('Data Scientist Interview Preparation', limit = 6, region = 'US')
-
-print(channels_Search.result())
+def viedo_suggestions(search):
+    '''Get the youtube video suggestion'''
+    viedo_suggestions = Suggestions(language = 'en', region = 'US')
+    viedo_suggestions=viedo_suggestions.get('search', mode = ResultMode.json)
+    return viedo_suggestions
 
 
-'''Search only playlists for Data Scientist Interview Preparation'''
+def channels_Search(search):
+    '''Search only channels'''
+    ChannelsSearch=ChannelsSearch('search', limit = 6, region = 'US')
+    return channels_Search.result()
 
-
-playlists_Search = PlaylistsSearch('Data Scientist Interview Preparation', limit = 2)
-
-print(playlists_Search.result())
+def playlists_Search(search):
+    '''Search only playlists'''
+    playlists_Search = PlaylistsSearch('search', limit = 2)
+    return playlists_Search.result()
