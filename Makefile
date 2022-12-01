@@ -10,7 +10,7 @@ format:
 	#pylint --disable=R,C *.py alisa_library/*.py
 test:
 	#test
-	python -m pytest -vv --cov=alisa_library test_*.py
+	python -m pytest -vv --cov=alisa_library *.py
 build:
 	#build container
 	docker build -t deploy-fastapi .
