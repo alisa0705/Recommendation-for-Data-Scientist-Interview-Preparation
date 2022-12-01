@@ -9,4 +9,4 @@ textblob==0.17.1
 requests
 bs4
 numpy
-youtubesearchpython
+youtube-search-python
