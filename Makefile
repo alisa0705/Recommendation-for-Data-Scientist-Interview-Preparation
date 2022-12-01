@@ -4,13 +4,13 @@ install:
 		pip install -r requirements.txt
 format:
 	#format code
-	black *.py mylib/*.py
+	black *.py alisa_library/*.py
 lint:
 	#flake8 or #pylint
-	pylint --disable=R,C *.py mylib/*.py
+	pylint --disable=R,C *.py alisa_library/*.py
 test:
 	#test
-	python -m pytest -vv --cov=mylib test_logic.py
+	python -m pytest -vv --cov=alisa_library test_*.py
 build:
 	#build container
 	docker build -t deploy-fastapi .
