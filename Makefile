@@ -16,7 +16,7 @@ build:
 	docker build -t deploy-fastapi .
 run:
 	#run docker
-	#docker run -p 127.0.0.1:8080:8080 ff3b59fc449b
+	
 deploy:
 	# push to ECR
 	aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/h2g8h2a1
