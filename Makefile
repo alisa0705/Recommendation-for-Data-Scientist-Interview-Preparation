@@ -8,9 +8,9 @@ format:
 #lint:
 	#flake8 or #pylint
 	#pylint --disable=R,C *.py alisa_library/*.py
-test:
+#test:
 	#test
-	python -m pytest -vv --cov=alisa_library *.py
+	#python -m pytest -vv --cov=alisa_library *.py
 build:
 	#build container
 	docker build -t deploy-fastapi .
