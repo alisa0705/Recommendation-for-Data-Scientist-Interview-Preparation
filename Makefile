@@ -5,9 +5,9 @@ install:
 format:
 	#format code
 	black *.py alisa_library/*.py
-lint:
+#lint:
 	#flake8 or #pylint
-	pylint --disable=R,C *.py alisa_library/*.py
+	#pylint --disable=R,C *.py alisa_library/*.py
 test:
 	#test
 	python -m pytest -vv --cov=alisa_library test_*.py
