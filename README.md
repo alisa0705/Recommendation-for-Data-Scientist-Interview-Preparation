@@ -1,3 +1,4 @@
+[![Python application test with Github Actions](https://github.com/nogibjj/Alisa_Project4/actions/workflows/build.yml/badge.svg)](https://github.com/nogibjj/Alisa_Project4/actions/workflows/build.yml)
 # Alisa_Project4:Youtube Recommendation for Data Scientist Interview Preparation
 
 The aim of this project is to create a microservice that returns a JASON payload, and also performs continuous integration(CI) through Github actions as well as deploy change (CD) through Fast API. 
