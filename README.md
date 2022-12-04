@@ -1,6 +1,10 @@
 [![Python application test with Github Actions](https://github.com/nogibjj/Alisa_Project4/actions/workflows/build.yml/badge.svg)](https://github.com/nogibjj/Alisa_Project4/actions/workflows/build.yml)
 # Alisa_Project4:Youtube Recommendation for Data Scientist Interview Preparation
 
+and I used the example of getting youtube recommendation for data scientist interview preparation. 
+
+
+
 The aim of this project is to create a microservice that returns a JASON payload, and also performs continuous integration(CI) through Github actions as well as deploy change (CD) through Fast API. 
 
  build continuous delivery of FastAPI 
@@ -11,6 +15,12 @@ The aim of this project is to create a microservice that returns a JASON payload
 2. Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
 3. Configure Build Server to Deploy Changes on build (Continuous Delivery)
 4. Create realistic API
+
+
+MakeFile
+![image](https://user-images.githubusercontent.com/89174034/205471946-a78bb899-5cb5-4a71-af82-16c95d620f69.png)
+
+
 
 
 # Result of CodeBuild
