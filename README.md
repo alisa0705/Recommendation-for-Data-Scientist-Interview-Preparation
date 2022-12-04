@@ -37,8 +37,8 @@ The output youtube channel:
 
 
 
-# Continuour Delivery
 ### Elastic Container Registry and MakeFile
+Create a repository in Amazon ECR and copy the push commands in our MakeFile
 ![image](https://user-images.githubusercontent.com/89174034/205471946-a78bb899-5cb5-4a71-af82-16c95d620f69.png)
 
 
