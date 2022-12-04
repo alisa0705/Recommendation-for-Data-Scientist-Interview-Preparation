@@ -37,14 +37,15 @@ The output youtube channel:
 
 
 
-
-MakeFile
+# Continuour Delivery
+### Elastic Container Registry and MakeFile
 ![image](https://user-images.githubusercontent.com/89174034/205471946-a78bb899-5cb5-4a71-af82-16c95d620f69.png)
 
 
 <img width="1282" alt="Screen Shot 2022-12-03 at 10 18 11 PM" src="https://user-images.githubusercontent.com/89174034/205472600-c4777ad8-0d3d-42d2-95a2-ed43bd1b3a61.png">
 
 
-# Result of CodeBuild
+### Result of CodeBuild: Succesfull
+By checking the "build status", we can unsure that our build status is successful.
 
 <img width="562" alt="Screen Shot 2022-11-30 at 6 58 38 PM" src="https://user-images.githubusercontent.com/89174034/204933519-76f6dc5b-ab21-497d-b4e8-539b052e42f8.png">
