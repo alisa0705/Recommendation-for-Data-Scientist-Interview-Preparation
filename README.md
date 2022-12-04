@@ -2,7 +2,7 @@
 # Alisa_Project4:Youtube Recommendation for Data Scientist Interview Preparation
 
 and I used the example of getting youtube recommendation for data scientist interview preparation. 
-
+\colorbox{lightgray}{word}
 
 
 The aim of this project is to create a microservice that returns a JASON payload, and also performs continuous integration(CI) through Github actions as well as deploy change (CD) through Fast API. 
@@ -15,6 +15,9 @@ The aim of this project is to create a microservice that returns a JASON payload
 2. Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
 3. Configure Build Server to Deploy Changes on build (Continuous Delivery)
 4. Create realistic API
+
+Install the package: 
+pip install youtubesearchpython
 
 
 MakeFile
