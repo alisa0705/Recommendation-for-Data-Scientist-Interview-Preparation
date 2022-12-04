@@ -2,9 +2,7 @@
 # Alisa_Project4:Youtube Recommendation for Data Scientist Interview Preparation
 
 and I used the example of getting youtube recommendation for data scientist interview preparation. 
-\documentclass{article}
-\usepackage[svgnames]{xcolor}
-\colorbox{lightgray}{word}
+* Type: `python3 -m venv ~/.venv`
 
 
 The aim of this project is to create a microservice that returns a JASON payload, and also performs continuous integration(CI) through Github actions as well as deploy change (CD) through Fast API. 
