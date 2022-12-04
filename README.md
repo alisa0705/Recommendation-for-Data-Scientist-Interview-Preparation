@@ -2,6 +2,8 @@
 # Alisa_Project4:Youtube Recommendation for Data Scientist Interview Preparation
 
 and I used the example of getting youtube recommendation for data scientist interview preparation. 
+\documentclass{article}
+\usepackage[svgnames]{xcolor}
 \colorbox{lightgray}{word}
 
 
