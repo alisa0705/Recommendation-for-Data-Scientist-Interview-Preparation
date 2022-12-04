@@ -7,11 +7,9 @@ The aim of this project is to create a microservice that returns a JASON payload
 
 
 Steps: 
- 
-1. Create a Microservice that returns a JSON payload and performs a Data Engineering related task
-2. Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
-3. Configure Build Server to Deploy Changes on build (Continuous Delivery)
-4. Create realistic API
+1. Create a Microservice and push the source code to Github and perform Continuous Integration
+2. Deploy changes on build for Continuous Delivery and test through code build
+
 
 
 * Install youtubesearchpython package: : `pip install youtubesearchpython`
@@ -37,7 +35,7 @@ The output youtube channel:
 
 
 
-### Elastic Container Registry and MakeFile
+# Elastic Container Registry and MakeFile
 Create a repository in Amazon ECR and copy the push commands in our MakeFile
 ![image](https://user-images.githubusercontent.com/89174034/205471946-a78bb899-5cb5-4a71-af82-16c95d620f69.png)
 
@@ -45,7 +43,7 @@ Create a repository in Amazon ECR and copy the push commands in our MakeFile
 <img width="1282" alt="Screen Shot 2022-12-03 at 10 18 11 PM" src="https://user-images.githubusercontent.com/89174034/205472600-c4777ad8-0d3d-42d2-95a2-ed43bd1b3a61.png">
 
 
-### Result of CodeBuild: Succesfull
+# Result of CodeBuild: Succesfull
 By checking the "build status", we can unsure that our build status is successful.
 
 <img width="562" alt="Screen Shot 2022-11-30 at 6 58 38 PM" src="https://user-images.githubusercontent.com/89174034/204933519-76f6dc5b-ab21-497d-b4e8-539b052e42f8.png">
